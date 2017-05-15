@@ -22,6 +22,7 @@ bower_components
 
 # python files
 *.pyc
+__pycache__/
 
 # ctag
 .tags
