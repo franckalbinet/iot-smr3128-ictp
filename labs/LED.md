@@ -24,8 +24,8 @@ You will learn how to:
 
 For this example you will need:
 
-- a LoPy or WiPy module
-- a microUSB cable
+* a LoPy or WiPy module
+* a microUSB cable
 
 The source code is in the LED directory.
 
@@ -37,7 +37,7 @@ Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you
 
 Let's first operate the LED using the terminal interface. From the command line, enter:
 
-```python=
+```python
 import pycom
 pycom.heartbeat(False) 
 pycom.rgbled(0xFF0000) 
@@ -47,16 +47,16 @@ The first line tells the system that you will use the pycom library. This librar
 The second line tells the system NOT to use the heartbeat functionality of the LED. In normal operations, the LED will blink with a blue color every second to show that the device is running properly.
 The third line tells the system to switch on the LED with a xxx color. The color code is the following (with the first six characters showing the Red Green Blue components, in exadecimal format):
 
-- blue is `0x00007f`
-- red is `0x7f0000`
-- green is `0x007f00`
-- yellow is `0x7f7f00`
+* blue is `0x00007f`
+* red is `0x7f0000`
+* green is `0x007f00`
+* yellow is `0x7f7f00`
 
 If you now disconnect the USB cable, the device will reset and the LED will go back to defult state (heartbeat mode).
 
 If you want your code to be permanently stored on the board, you need to open the LED directory and sync it to your board.
 ### boot.py
-```python=
+```python
 from machine import UART
 import os
 uart = UART(0, 115200)
@@ -73,7 +73,7 @@ For instance in our case, it allows to run Python single expressions or scripts 
 
 ### main.py
 
-```python=
+```python
 import pycom
 import time
 pycom.heartbeat(False)
