@@ -29,7 +29,7 @@ For this example you will need:
 
 The source code is in the LED directory.
 
-> **Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.**
+> Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.
 
 ## Code
 
@@ -109,7 +109,7 @@ for cycles in range(10): # stop after 10 cycles
 We start a cycle and limit it to 10.
 
 
-> **Indentation is very important in python! Make sure you indent the code after the `for` command.**
+> Indentation is very important in python! Make sure you indent the code after the `for` command.
 
 
 ```python
