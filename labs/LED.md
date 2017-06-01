@@ -33,7 +33,7 @@ The source code is in the LED directory.
 Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.
 :::
 
-> Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.
+> **Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.**
 
 ## Code
 
