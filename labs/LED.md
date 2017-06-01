@@ -29,10 +29,6 @@ For this example you will need:
 
 The source code is in the LED directory.
 
-:::info
-Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.
-:::
-
 > **Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.**
 
 ## Code
@@ -58,6 +54,7 @@ If you now disconnect the USB cable, the device will reset and the LED will go b
 
 If you want your code to be permanently stored on the board, you need to open the LED directory and sync it to your board.
 ### boot.py
+
 ```python
 from machine import UART
 import os
@@ -92,30 +89,30 @@ You should see the LED light up for five seconds at a time, in green, yellow and
 
 Let's analyze the code:
 
-```
+```python
 import pycom
 import time
 ```
 
 We first import two libraries: pycom and time. The pycom one includes the utilities necessary to operate the specific pycom hardware. The time one is used to keep track of time and helps operate the internal clock.
 
-```
+```python
 pycom.heartbeat(False)
 ```
 
 We then deactive the heartbeat funcionality.
 
-```
+```python
 for cycles in range(10): # stop after 10 cycles
 ```
 
 We start a cycle and limit it to 10.
 
-:::info
-Indentation is very important in python! Make sure you indent the code after the `for` command.
-:::
 
-```
+> **Indentation is very important in python! Make sure you indent the code after the `for` command.**
+
+
+```python
     pycom.rgbled(0x007f00) # green
     time.sleep(5)
 ```
