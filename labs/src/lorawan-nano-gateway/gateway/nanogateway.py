@@ -187,7 +187,9 @@ class NanoGateway:
             self.rxok += 1
             rx_data = self.lora_sock.recv(256)
             stats = lora.stats()
-            self._push_data(self._make_node_packet(rx_data, self.rtc.now(), stats.rx_timestamp, stats.sfrx, stats.rssi, stats.snr))
+            #self._push_data(self._make_node_packet(rx_data, self.rtc.now(), stats.rx_timestamp, stats.sfrx, stats.rssi, stats.snr))
+            # Fix the "not joined yet" issue: https://forum.pycom.io/topic/1330/lopy-lorawan-gateway-with-an-st-lorawan-device/2
+            self._push_data(self._make_node_packet(rx_data, self.rtc.now(), time.ticks_us(), stats.sfrx, stats.rssi, stats.snr))
             self.rxfw += 1
         if events & LoRa.TX_PACKET_EVENT:
             self.txnb += 1

@@ -44,6 +44,7 @@ time.sleep(5.0)
 
 for i in range (200):
     s.send(b'PKT #' + bytes([i]))
+    print('STA node sending packet ...')
     time.sleep(4)
     rx = s.recv(256)
     if rx:
