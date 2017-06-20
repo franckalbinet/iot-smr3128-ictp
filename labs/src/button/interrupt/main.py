@@ -15,5 +15,5 @@ def handler(pin):
     else:
         pass
 
-btn = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+btn = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 btn.callback(Pin.IRQ_FALLING | Pin.IRQ_RISING, handler)

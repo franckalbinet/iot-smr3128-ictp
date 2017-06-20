@@ -27,5 +27,5 @@ class Button:
         else:
             pass
 
-btn = Button('G17')
+btn = Button('P14')
 btn.on()
