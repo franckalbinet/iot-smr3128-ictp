@@ -137,6 +137,7 @@ The Pycom expansion board accepts the micro SD size formatted as `FAT16`or `FAT3
 
 To use an `SD card`:
 * insert your SD card in expansion board (see picture below)
+
 ![lopy-expansion-board-sd.png](http://i.imgur.com/9WYmnLr.jpg?2)
 
 2. then write the following code line by line in Atom console:
