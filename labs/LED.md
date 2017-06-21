@@ -9,7 +9,7 @@ In this example, we will create and deploy the proverbial 1st app, “Hello, wor
 
 The LoPy module has one LED as shown on the top in this picture.
 
-![](https://i.imgur.com/ZLIv86u.jpg)
+![](http://i.imgur.com/K7lEu24.png)
 
 The pycom expansion board has also a (smaller) LED shown on the right in the picture. We will use the LED of the LoPy module and will refer to this as the LED.
 
