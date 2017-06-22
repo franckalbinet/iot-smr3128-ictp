@@ -1,6 +1,8 @@
 from machine import Pin
 import time
 
+# Pin: P14 for Pysense board
+# Pin: G17 for Extension board
 
 is_pressed = False
 def handler(pin):
@@ -15,5 +17,5 @@ def handler(pin):
     else:
         pass
 
-btn = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
+btn = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
 btn.callback(Pin.IRQ_FALLING | Pin.IRQ_RISING, handler)
