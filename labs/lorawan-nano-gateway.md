@@ -199,7 +199,13 @@ If you click on the up arrow of one of the message, you will open a panel with d
 
 ## Exercises
 
-TBD
+### Tip 1
+
+The payload received from your device often need to be decoded (from bytes to whatever you want)
+
+![img/ttn-payload.png](http://i.imgur.com/LUNPjJL.png)
+
+the JavaScript snippet code gives a decoding example:
 
 ```javascript
 function Decoder(bytes, port) {
@@ -211,6 +217,10 @@ function Decoder(bytes, port) {
   return {'data': decoded.join('')}
 }
 ```
+
+### Tip 2
+
+This is obviously possible to retrieve data sent from your device directly from a Jupyter notebook. The Python snippet code below gives an example.
 
 Copy the following Python snippet code in a Jupyter notebook (with Python kernel 2.7):
 
@@ -232,3 +242,7 @@ df = pd.read_json(text)
 df = df.set_index(['time'])
 df.head()
 ```
+
+### Challenge
+
+Measure the temperature with a Pysense and retrieve it from TTN or even better from a Jupyter notebook in a tabular form and time line chart.
