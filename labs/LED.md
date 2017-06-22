@@ -27,7 +27,7 @@ For this example you will need:
 * a LoPy or WiPy module
 * a microUSB cable
 
-The source code is in the `src/led` directory.
+The source code is in the `src/LED` directory.
 
 > Activating the LED consumes a lot of energy. Make sure you don't use LEDs if you want to have a low power system.
 
