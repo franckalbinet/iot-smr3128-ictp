@@ -199,8 +199,7 @@ If you click on the up arrow of one of the message, you will open a panel with d
 
 ## Exercises
 
-**Tip 1:**
-The payload received from your device often need to be decoded (from bytes to whatever you want):
+**Tip 1: The payload received from your device often need to be decoded (from bytes to whatever you want)**
 
 ![img/ttn-payload.png](http://i.imgur.com/LUNPjJL.png)
 
@@ -217,8 +216,7 @@ function Decoder(bytes, port) {
 }
 ```
 
-**Tip 2:**
-This is obviously possible to retrieve data sent from your device directly from a Jupyter notebook. The Python snippet code below gives an example.
+**Tip 2: This is obviously possible to retrieve data sent from your device directly from a Jupyter notebook. The Python snippet code below gives an example.**
 
 Copy the following Python snippet code in a Jupyter notebook (with Python kernel 2.7):
 
@@ -241,4 +239,4 @@ df = df.set_index(['time'])
 df.head()
 ```
 
-Challenge: measure the temperature with a Pysense and retrieve it from TTN or even better from a Jupyter notebook in a tabular form and time line chart.
+**Challenge: measure the temperature with a Pysense and retrieve it from TTN or even better from a Jupyter notebook in a tabular form and time line chart.**
