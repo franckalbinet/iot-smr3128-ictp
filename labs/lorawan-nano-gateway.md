@@ -202,7 +202,7 @@ If you click on the up arrow of one of the message, you will open a panel with d
 **Tip 1:**
 The payload received from your device often need to be decoded (from bytes to whatever you want):
 
-![img/ttn-payload.png]](http://i.imgur.com/LUNPjJL.png)
+![img/ttn-payload.png](http://i.imgur.com/LUNPjJL.png)
 
 the JavaScript snippet code gives a decoding example:
 
