@@ -94,4 +94,5 @@ Open the file in an editor and keep what you consider relevant (at this point th
 Et voilà!
 
 ## Exercise
-Create a new repo., choose a team to add as collaborator and go through the whole process.
+1. Create a new repo., choose a team to add as collaborator and go through the whole process.
+2. Try to create a topic branch and merge it to master at some point.

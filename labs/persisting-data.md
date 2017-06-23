@@ -266,6 +266,6 @@ def get_log_filename(prefix, suffix):
 and use it when required: `get_log_filename('/flash/log/acq', 'list.csv')`
 
 ## Exercise
-Write a script writing a file named `"log/log.txt"` containing the following text: `"This is my data"`:
-* in an `SD` card if inserted in Lopy or;
-* directly in `flash` folder otherwise.
+Write a script writing a file named `"log.csv"` in `/flash/log/` folder so that:
+* if the user pushes the button the pressing time and an incremented counter is saved;
+* it the counter reaches 10, LED is switched on.
