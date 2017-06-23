@@ -267,5 +267,5 @@ and use it when required: `get_log_filename('/flash/log/acq', 'list.csv')`
 
 ## Exercise
 Write a script writing a file named `"log.csv"` in `/flash/log/` folder so that:
-* if the user pushes the button the pressing time is saved in the file and you increment a counter;
-* it the counter reaches ten you switch on the LED.
+* if the user pushes the button the pressing time and an incremented counter is saved;
+* it the counter reaches 10, LED is switched on.
