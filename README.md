@@ -1,6 +1,6 @@
 # iot-smr3128-ictp
 
-Used within the context of a "Workshop on Open Source Solutions for the Internet of Things" given in:
+Used within the context of the **"Workshop on Open Source Solutions for the Internet of Things"** given in:
 
 ICTP, Trieste - Italy
 June 27 - July 7, 2017
