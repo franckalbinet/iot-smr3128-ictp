@@ -29,7 +29,7 @@ For the tutorial, we use the following resources:
 * Python libraries for time series analysis
 * Python libraries for image classification
 
-In a [separate tutorial](https://hackmd.io/CYDgnAbAzARgDDAtGY1EBYwEYkEMQBmA7BmAMZSZRECsZuRQA===?both) I review how to get your data streaming to Thingspeak. If you want, you can visit it to refresh your knowledge.
+In a [separate tutorial](thing-speak-and-data-analysis-for-iot.md) I review how to get your data streaming to Thingspeak. If you want, you can visit it to refresh your knowledge.
 
 Here we assume that you are already familiar with data collection, and start with the analysis part.
 

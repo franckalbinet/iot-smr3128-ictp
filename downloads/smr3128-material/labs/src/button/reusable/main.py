@@ -1,6 +1,8 @@
 from machine import Pin
 import time
 
+# Pin: P14 for Pysense board
+# Pin: G17 for Extension board
 
 from machine import Pin
 
@@ -27,5 +29,5 @@ class Button:
         else:
             pass
 
-btn = Button('P14')
+btn = Button('G17')
 btn.on()
