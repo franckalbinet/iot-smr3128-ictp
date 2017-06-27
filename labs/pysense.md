@@ -69,6 +69,7 @@ py = Pysense()
 For further information on I2C:
 * [wikipedia entry](https://en.wikipedia.org/wiki/I%C2%B2C)
 * [Pycom `I2C` class](https://docs.pycom.io/pycom_esp32/library/machine.I2C.html)
+* [I2C briefing by Marco Rainone, ICTP](resources/i2csensors.pdf)
 
 2. then create a `LIS2HH12` object passing the previously created Pysense object as argument. While the `Pysense` object provides general purpose methods to communicate over the I2C bus, this object will further specify the address of the device (`LIS2HH12` sensor) and register addresses of interest to be used to calculate and give access to the 3-axis accelerometer measurements.
 
