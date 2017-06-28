@@ -92,7 +92,7 @@ Once identified your serial device you need to update Pymakr settings. In Pymakr
 
 ![img/lopy-wifi.png](http://i.imgur.com/7GbsuFk.png)
 
-2. Reset Pymakr settings to default (no usb device address)
+3. Reset Pymakr settings to default (no usb device address)
 
 And that's all.
 
@@ -112,11 +112,13 @@ then reboot.
 
 ## Fetching data from the Lopy with Filezilla
 
-> Warning: Your device's WiFi should be in Acces Point mode.
+> Warning: Your device's WiFi should be in Acces Point mode (.
 
 To establish a connection with your device:
 
-1. Connect to device's WiFi
+1. Connect to device's WiFi (password: www.pycom.io):
+
+2. Go to top menu `File > Site Manager...`
 
 
 ![img/filezilla-settings.png](http://i.imgur.com/SAN02Pa.png)
